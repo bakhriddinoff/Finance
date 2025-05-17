@@ -189,3 +189,45 @@ h1 {
     color: #737373;
     font-weight: 600;
 }
+
+/* SECTION4 */
+
+.buttons {
+    margin-top: var(--paddingtop);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn3 {
+    width: 277px;
+    height: 85px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.icon {
+    width: 30px;
+    height: 36px;
+    align-self: center;
+    justify-self: center;
+    margin-left: 20px;
+}
+
+.app-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.text4 {
+    font-size: 14px;
+}
+
+.text5 {
+    font-size: 22px;
+}
