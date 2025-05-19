@@ -231,3 +231,87 @@ h1 {
 .text5 {
     font-size: 22px;
 }
+
+/* SECTION5 */
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fee-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: var(--paddingtop);
+}
+
+.left-fee, .right-fee {
+    width: 308px;
+    height: 407px;
+    background-color: white;
+    border-radius: 10px;
+    color: #737373;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    gap: 20px;
+}
+
+.heading3 {
+    font-size: 25px;
+    color: #23A6F0;
+    margin-bottom: 20px;
+}
+
+.text6 {
+    font-weight: 550;
+}
+
+.sec-wrapper, .time-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.money-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn4 {
+    margin-top: 30px;
+}
+
+.num {
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.dollar {
+    font-weight: 700;
+    font-size: 16px;
+    color: #23A6F0;
+}
+
+.monthly {
+    color: #8EC2F2;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn4 {
+    width: 162px;
+    height: 52px;
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-color: #23A6F0;
+}
