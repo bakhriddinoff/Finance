@@ -315,3 +315,213 @@ h1 {
     font-weight: 700;
     background-color: #23A6F0;
 }
+
+.left-inc .text1 {
+    text-align: start;
+}
+
+.right-inc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.security, form {
+    width: 390px;
+}
+
+.security2 {
+    display: none;
+}
+
+.form-wrapper {
+    background-color: white;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: black;
+}
+
+input, select {
+    width: 311px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    background-color: #F9F9F9;
+    color: #737373;
+    padding-left: 20px;
+}
+
+.btn5 {
+    background-color: #23A6F0;
+    color: white;
+    font-weight: 700;
+    width: 314px;
+    height: 52px;
+    border-radius: 5px;
+    border: transparent;
+    margin-bottom: 40px;
+}
+
+label{
+    margin-right: 250px;
+}
+
+.heading4 {
+    margin-right: 150px;
+} 
+
+label {
+    font-style: 14px;
+    font-weight: 600;
+}
+
+.department {
+    margin-left: 50px;
+}
+
+.heading4 {
+    margin-top: var(--paddingtop);
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.f-ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tekst1 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.footer {
+    width: 100%;
+    margin-top: var(--paddingtop);
+    background-color: white;
+    color: #252B42;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    display: none;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (min-width:1200px) {
+    .container {
+        min-width: 1200px;
+    }
+    .imgg {
+        display: none;
+    }
+    .img2 {
+        display: flex;
+    }
+    .phone-ul {
+        display: none;
+    }
+    .links {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+    .btn-head {
+        width: 214px;
+        height: 52px;
+        border-radius: 5px;
+        border: transparent;
+        background-color: #23A6F0;
+        color: white;
+        font-weight: 600;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 330px;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        gap: 300px;
+    }
+    .imgg, .settings {
+        display: none;
+    }
+    .img2 {
+        display: flex;
+        position: absolute;
+        left: -200px;
+    }
+    h1 {
+        text-align: start;
+    }
+    .left .text1 {
+        text-align: start;
+    }
+    .phone {
+        display: none;
+    }
+    .left {
+        align-items: start;
+    }
+    .btns {
+        display: flex;
+        flex-direction: row;
+    }
+    .cards {
+        flex-direction: row;
+    }
+    .card-item {
+        border: 1px solid white;
+    }
+    .contact {
+        display: flex;  
+    }
+    .designer-wrapper {
+        width: 749px;
+        height: 362px;
+    }
+    .buttons {
+        flex-direction: row;
+    }
+    .btn3 {
+        color: white;
+        background-color: transparent;
+    }
+}
