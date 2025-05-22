@@ -15,7 +15,6 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
-    height: 600vh;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -550,6 +549,7 @@ footer {
         display: flex;
         flex-direction: row;
         padding-bottom: 150px;
+        gap:280px;
     }
     .left-fee, .right-fee {
         width: 508px;
@@ -607,7 +607,7 @@ footer {
         display: flex;
         justify-content: start;
         align-items: center;
-        gap: 5px;
+        gap: 20px;
     }
     .img-apps {
         display: flex;
